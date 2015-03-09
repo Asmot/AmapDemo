@@ -1,11 +1,9 @@
 package com.example.amapdemo.basic;
 
-import com.amap.api.maps2d.AMap;
+import android.os.Bundle;
+
 import com.amap.api.maps2d.MapView;
 import com.example.amapdemo.R;
-
-import android.app.Activity;
-import android.os.Bundle;
 
 public class HelloActivity extends BasicActivity{
 

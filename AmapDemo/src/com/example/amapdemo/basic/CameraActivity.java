@@ -38,8 +38,8 @@ public class CameraActivity extends BasicActivity implements OnClickListener{
 		
 		Button stopAnimation = (Button) findViewById(R.id.stop_animation);
 		stopAnimation.setOnClickListener(this);
-		ToggleButton animate = (ToggleButton) findViewById(R.id.animate);
-		animate.setOnClickListener(this);
+//		ToggleButton animate = (ToggleButton) findViewById(R.id.animate);
+//		animate.setOnClickListener(this);
 		Button Lujiazui = (Button) findViewById(R.id.Lujiazui);
 		Lujiazui.setOnClickListener(this);
 		Button Zhongguancun = (Button) findViewById(R.id.Zhongguancun);
@@ -121,6 +121,14 @@ public class CameraActivity extends BasicActivity implements OnClickListener{
 		case R.id.scroll_right:
 	
 			changeCamera(CameraUpdateFactory.scrollBy(SCROLL_BY_PX, 0));
+		break;
+		case R.id.zoom_in:
+			
+			changeCamera(CameraUpdateFactory.zoomIn());
+		break;
+		case R.id.zoom_out:
+			
+			changeCamera(CameraUpdateFactory.zoomOut());
 		break;
 			
 		default:

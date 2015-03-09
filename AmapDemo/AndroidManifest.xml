@@ -28,6 +28,9 @@
         <activity android:name=".basic.BasicActivity"></activity>
         <activity android:name=".basic.HelloActivity"></activity>
         <activity android:name=".basic.CameraActivity"></activity>
+        <activity android:name=".basic.EventsActivity"></activity>
+        <activity android:name=".basic.LayerActivity"></activity>
+        <activity android:name=".basic.MapOptionActivity"></activity>
     </application>
 
 </manifest>

@@ -2,7 +2,10 @@ package com.example.amapdemo;
 
 import com.example.amapdemo.basic.BasicActivity;
 import com.example.amapdemo.basic.CameraActivity;
+import com.example.amapdemo.basic.EventsActivity;
 import com.example.amapdemo.basic.HelloActivity;
+import com.example.amapdemo.basic.LayerActivity;
+import com.example.amapdemo.basic.MapOptionActivity;
 
 import android.app.Activity;
 import android.app.ListActivity;
@@ -24,6 +27,9 @@ public class MainActivity extends Activity {
 	private static final DemoDetails[] demos= {
 		new DemoDetails("HelloActivity", "创建一个基本地图，helloworld", HelloActivity.class),
 		new DemoDetails("CameraActivity", "介绍在地图中操作Camera各种功能", CameraActivity.class),
+		new DemoDetails("EventsActivity", "介绍在地图中各种事件", EventsActivity.class),
+		new DemoDetails("LayerActivity", "介绍在地图中各种图层", LayerActivity.class),
+		new DemoDetails("MapOptionActivity", "禁止地图中的一些操作", MapOptionActivity.class),
 	};
 	
 	@Override

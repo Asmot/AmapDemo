@@ -20,23 +20,26 @@ public final class R {
         public static final int Lujiazui=0x7f070003;
         public static final int Zhongguancun=0x7f070004;
         public static final int animate=0x7f070002;
-        public static final int description=0x7f07000d;
-        public static final int lv_main=0x7f07000b;
+        public static final int description=0x7f07000f;
+        public static final int layers_spinner=0x7f07000b;
+        public static final int lv_main=0x7f07000d;
         public static final int map=0x7f070000;
         public static final int scroll_down=0x7f070007;
         public static final int scroll_left=0x7f070005;
         public static final int scroll_right=0x7f070008;
         public static final int scroll_up=0x7f070006;
         public static final int stop_animation=0x7f070001;
-        public static final int title=0x7f07000c;
+        public static final int title=0x7f07000e;
+        public static final int traffic=0x7f07000c;
         public static final int zoom_in=0x7f070009;
         public static final int zoom_out=0x7f07000a;
     }
     public static final class layout {
         public static final int activity_basic=0x7f030000;
         public static final int activity_camera=0x7f030001;
-        public static final int activity_main=0x7f030002;
-        public static final int activity_main_item=0x7f030003;
+        public static final int activity_layer=0x7f030002;
+        public static final int activity_main=0x7f030003;
+        public static final int activity_main_item=0x7f030004;
     }
     public static final class string {
         public static final int animate=0x7f040000;
