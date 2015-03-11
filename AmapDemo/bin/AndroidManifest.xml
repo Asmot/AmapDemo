@@ -6,6 +6,11 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="8" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -31,6 +36,19 @@
         <activity android:name=".basic.EventsActivity"></activity>
         <activity android:name=".basic.LayerActivity"></activity>
         <activity android:name=".basic.MapOptionActivity"></activity>
+        <activity android:name=".basic.BaseMapFragmentActivity"></activity>
+        <activity android:name=".basic.ScreenShotActivity"></activity>
+        <activity android:name=".basic.UISettingActivity"></activity>
+        
+        <activity android:name=".overlay.PolylineActivity"></activity>
+        <activity android:name=".overlay.PolygonActivity"></activity>
+        <activity android:name=".overlay.MarkersActivity"></activity>
+        <activity android:name=".overlay.GroundOverlayActivity"></activity>
+        
+        <activity android:name=".location.LocationSourceActivity"></activity>
+        <activity android:name=".location.LocationSensorSourceActivity"></activity>
+         
+        <activity android:name=".poisearch.PoiKeyWordSearchActivity"></activity> 
     </application>
 
 </manifest>

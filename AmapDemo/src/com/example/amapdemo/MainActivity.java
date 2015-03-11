@@ -1,11 +1,22 @@
 package com.example.amapdemo;
 
+import com.amap.api.maps2d.LocationSource;
+import com.example.amapdemo.basic.BaseMapFragmentActivity;
 import com.example.amapdemo.basic.BasicActivity;
 import com.example.amapdemo.basic.CameraActivity;
 import com.example.amapdemo.basic.EventsActivity;
 import com.example.amapdemo.basic.HelloActivity;
 import com.example.amapdemo.basic.LayerActivity;
 import com.example.amapdemo.basic.MapOptionActivity;
+import com.example.amapdemo.basic.ScreenShotActivity;
+import com.example.amapdemo.basic.UISettingActivity;
+import com.example.amapdemo.location.LocationSensorSourceActivity;
+import com.example.amapdemo.location.LocationSourceActivity;
+import com.example.amapdemo.overlay.GroundOverlayActivity;
+import com.example.amapdemo.overlay.MarkersActivity;
+import com.example.amapdemo.overlay.PolygonActivity;
+import com.example.amapdemo.overlay.PolylineActivity;
+import com.example.amapdemo.poisearch.PoiKeyWordSearchActivity;
 
 import android.app.Activity;
 import android.app.ListActivity;
@@ -30,6 +41,16 @@ public class MainActivity extends Activity {
 		new DemoDetails("EventsActivity", "介绍在地图中各种事件", EventsActivity.class),
 		new DemoDetails("LayerActivity", "介绍在地图中各种图层", LayerActivity.class),
 		new DemoDetails("MapOptionActivity", "禁止地图中的一些操作", MapOptionActivity.class),
+		new DemoDetails("BaseMapFragmentActivity", "BaseMapFragmentActivity", BaseMapFragmentActivity.class),
+		new DemoDetails("ScreenShotActivity", "截图功能", ScreenShotActivity.class),
+		new DemoDetails("UISettingActivity", "各种小功能", UISettingActivity.class),
+		new DemoDetails("PolylineActivity", "在地图上划线", PolylineActivity.class),
+		new DemoDetails("PolygonActivity", "在地图上画多边形", PolygonActivity.class),
+		new DemoDetails("MarkersActivity", "在地图上加Markers", MarkersActivity.class),
+		new DemoDetails("GroundOverlayActivity", "在地图上放一张图片", GroundOverlayActivity.class),
+		new DemoDetails("LocationSource", "地图上的小蓝点", LocationSourceActivity.class),
+		new DemoDetails("LocationSensorSourceActivity", "小蓝点 跟随转动", LocationSensorSourceActivity.class),
+		new DemoDetails("PoiKeyWordSearchActivity", "关键字搜索", PoiKeyWordSearchActivity.class),
 	};
 	
 	@Override

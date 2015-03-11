@@ -5,7 +5,7 @@ import com.amap.api.maps2d.CameraUpdateFactory;
 import com.amap.api.maps2d.MapView;
 import com.amap.api.maps2d.model.CameraPosition;
 import com.example.amapdemo.R;
-import com.example.amapdemo.utils.Constans;
+import com.example.amapdemo.utils.Constants;
 
 import android.os.Bundle;
 import android.view.View;
@@ -91,11 +91,11 @@ public class CameraActivity extends BasicActivity implements OnClickListener{
 				bearing - 可视区域指向的方向，以角度为单位，正北方向到地图方向逆时针旋转的角度，范围从0度到360度。
 			 */
 			changeCamera(CameraUpdateFactory.newCameraPosition(
-					new CameraPosition(Constans.SHANGHAI, 18, 0, 0)));
+					new CameraPosition(Constants.SHANGHAI, 18, 0, 0)));
 			break;
 		case R.id.Zhongguancun:
 			changeCamera(CameraUpdateFactory.newCameraPosition(
-					new CameraPosition(Constans.ZHONGGUANCUN, 18, 0, 0)));
+					new CameraPosition(Constants.ZHONGGUANCUN, 18, 0, 0)));
 			break;
 		case R.id.scroll_down:
 			/*
