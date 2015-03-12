@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 
 public class BaseMapFragmentActivity extends FragmentActivity{
-	private AMap mMap;
+	protected AMap aMap;
 	@Override
 	protected void onCreate(Bundle arg0) {
 		// TODO Auto-generated method stub
@@ -26,9 +26,9 @@ public class BaseMapFragmentActivity extends FragmentActivity{
 		setUpMap();
 	}
 	
-	private void setUpMap() {
-		if (mMap == null) {
-			mMap = ((SupportMapFragment) getSupportFragmentManager()
+	protected void setUpMap() {
+		if (aMap == null) {
+			aMap = ((SupportMapFragment) getSupportFragmentManager()
 					.findFragmentById(R.id.map)).getMap();
 		}
 	}

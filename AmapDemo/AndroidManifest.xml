@@ -49,6 +49,9 @@
         <activity android:name=".location.LocationSensorSourceActivity"></activity>
          
         <activity android:name=".poisearch.PoiKeyWordSearchActivity"></activity> 
+        <activity android:name=".poisearch.PoiAroundSearchActivity"></activity> 
+        
+        <activity android:name=".route.RouteActivity"></activity>
     </application>
 
 </manifest>

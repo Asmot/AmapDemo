@@ -16,7 +16,9 @@ import com.example.amapdemo.overlay.GroundOverlayActivity;
 import com.example.amapdemo.overlay.MarkersActivity;
 import com.example.amapdemo.overlay.PolygonActivity;
 import com.example.amapdemo.overlay.PolylineActivity;
+import com.example.amapdemo.poisearch.PoiAroundSearchActivity;
 import com.example.amapdemo.poisearch.PoiKeyWordSearchActivity;
+import com.example.amapdemo.route.RouteActivity;
 
 import android.app.Activity;
 import android.app.ListActivity;
@@ -51,6 +53,8 @@ public class MainActivity extends Activity {
 		new DemoDetails("LocationSource", "地图上的小蓝点", LocationSourceActivity.class),
 		new DemoDetails("LocationSensorSourceActivity", "小蓝点 跟随转动", LocationSensorSourceActivity.class),
 		new DemoDetails("PoiKeyWordSearchActivity", "关键字搜索", PoiKeyWordSearchActivity.class),
+		new DemoDetails("PoiAroundSearchActivity", "周边搜索", PoiAroundSearchActivity.class),
+		new DemoDetails("RouteActivity", "线路查询", RouteActivity.class),
 	};
 	
 	@Override
